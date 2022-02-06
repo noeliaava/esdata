@@ -1,0 +1,165 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, .nav-link {
+    font-family: 'Roboto';
+}
+
+/*                    HEADER                  */ 
+
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar-brand img{
+    margin: auto;
+    width: 130px;
+    @media only screen and (max-width: 376px) {
+
+    }
+}
+
+#navbarNavDropdown {
+    justify-content: flex-end;
+}
+
+.nav-link.dropdown-toggle {
+    padding: 0.3rem 0;
+}
+
+.dropdown-menu.show {
+    border-style: none !important;
+    font-size: 12px;
+    padding: 0;
+    text-align: left;
+}
+
+.nav-item {
+    width: 80px;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+/*  */
+.navbar-toggler {
+    border-color: #61c0bf !important;
+    padding: 0.15rem 0.2rem;
+    background-color: #fff;
+    border-style: none !important;
+}
+
+
+
+
+/*                   BANNER                     */ 
+.banner-con {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 140px;
+}
+
+.banner-con .banner-text {
+    width: 40%;
+    padding: 0 1rem;
+}
+
+.banner-con .banner-text h1{
+    text-align: left;
+    font-size: 14px;
+}
+
+.banner-con .banner-img {
+    width: 60%;
+}
+
+.banner-con .banner-img img{
+    width: 200px;
+}
+
+
+/*                   CARDS                    */ 
+
+#services {
+    height: 310px;
+}
+
+#cards1 {
+    border-radius: 12px 12px 0 0 ;
+}
+
+#cards2 {
+    border-radius: 0 0 12px 12px;
+}
+
+.cards-con {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    background-color: #c4e4e8;
+}
+
+.cards-con .card {
+    width: 40%;
+    height: 120px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.cards-con .card .card-link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    height: 100%;
+}
+
+.cards-con .card .card-img-top{
+    width: 60%;
+    margin: auto;
+}
+
+.cards-con .card #cv, .cards-con .card #material{
+    width: 30%;
+    margin: auto;
+}
+
+.cards-con .card .card-title {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    color: #212529;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-con {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.footer-con .footer-item {
+    height: 40px;
+    margin: auto;
+}
+
+.footer-item:nth-child(2){
+    height: 30px;
+}
+
+.footer .copy {
+    font-size: 10px;
+    font-weight: 500;
+}
